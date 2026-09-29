@@ -12,7 +12,6 @@ jobs:
   build-apk:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -22,16 +21,14 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-          cache: gradle
 
-      - name: Validate Gradle wrapper
-        uses: gradle/actions/wrapper-validation@v4
-
-      - name: Make Gradle executable
-        run: chmod +x gradlew
+      - name: Set up Gradle 9.3.1
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '9.3.1'
 
       - name: Build debug APK
-        run: ./gradlew :app:assembleDebug --stacktrace --no-daemon
+        run: gradle :app:assembleDebug --stacktrace --no-daemon
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
