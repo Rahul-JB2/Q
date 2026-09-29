@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Orbit 1 -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#38BDF8"
+            android:strokeWidth="2.5"
+            android:strokeLineCap="round"
+            android:pathData="M32,54 C32,42 76,42 76,54 C76,66 32,66 32,54 Z" />
+        <!-- Orbit 2 tilted -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#818CF8"
+            android:strokeWidth="2.5"
+            android:strokeLineCap="round"
+            android:pathData="M37,40 C46,31 71,68 62,77 C53,86 28,49 37,40 Z" />
+        <!-- Orbit 3 tilted -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#F59E0B"
+            android:strokeWidth="2.5"
+            android:strokeLineCap="round"
+            android:pathData="M71,40 C80,49 55,86 46,77 C37,68 62,31 71,40 Z" />
+        <!-- Central glowing nucleus -->
+        <path
+            android:fillColor="#FBBF24"
+            android:pathData="M54,48 C57.3,48 60,50.7 60,54 C60,57.3 57.3,60 54,60 C50.7,60 48,57.3 48,54 C48,50.7 50.7,48 54,48 Z" />
+        <!-- Delta / Arrow mark upward representing high rank -->
+        <path
+            android:fillColor="#38BDF8"
+            android:pathData="M54,28 L62,38 L46,38 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M52.5,35 L55.5,35 L55.5,38 L52.5,38 Z" />
+    </group>
+</vector>

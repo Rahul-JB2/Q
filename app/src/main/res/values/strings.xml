@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Super50 Tracker</string>
+    <string name="accessibility_service_description">IIT Super-50 Study Guard monitors and restricts distracting applications during study hours unless an authorized reward pass is active.</string>
+</resources>

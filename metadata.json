@@ -1,0 +1,6 @@
+{
+  "name": "Super50 Tracker",
+  "description": "BSEB Super-50 JEE test series tracker with 6-pillar chapter checklist, PCM daily missions, formula vault, and mock exam test logs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
